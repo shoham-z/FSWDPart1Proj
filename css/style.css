@@ -7,6 +7,39 @@
     width: 100%; /* Full width */
 }
 
+body {
+    background-image: url("../images/RemyBackground.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #303030;
+    background-blend-mode: overlay;
+}
+
+select{
+    border:0px;
+    outline:0px;
+    -webkit-appearance:none;
+    background: inherit;
+    appearance:none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.topnav {
+    background-image: linear-gradient(#bd0909, #be2121, #6b0303);
+    outline-width: 20px;
+    outline-color: black;
+}
+
+.topnavselect option, select{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background: inherit;
+}
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
@@ -25,7 +58,8 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #04AA6D;
+    background: rgba(4, 170, 109, 0.3);
+    /*background-color: #04AA6D;*/
     color: white;
 }
 
