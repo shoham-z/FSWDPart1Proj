@@ -66,3 +66,18 @@ select{
 .main {
     margin-top: 55px; /* Add a top margin to avoid content overlay */
 }
+
+.youtube_vids {
+    float: left;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: "Calibri Light";
+    border: 2px solid black;
+    border-radius: 40px;
+    text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    height: 400px;
+    width: 650px;
+}
