@@ -72,13 +72,20 @@ select{
     float: left;
     margin: auto;
     text-align: center;
-    color: white;
-    font-family: "Calibri Light";
     border: 2px solid black;
     border-radius: 40px;
-    text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
     background: rgba(0, 0, 0, 0.3);
     padding: 5px;
     height: 400px;
     width: 650px;
+}
+
+.default_font {
+    color: white;
+    font-family: "Calibri Light";
+    text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+}
+
+footer.main-footer {
+    background: #303030bf;
 }
