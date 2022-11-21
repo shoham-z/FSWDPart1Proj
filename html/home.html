@@ -13,7 +13,12 @@
     <div id="nav-placeholder">
         <script>
             $(function () {
-                $("#nav-placeholder").load("nav.html");//put the html code here and modify it to fit the specific page
+                $.get( "./nav.html", function( data ) {
+                    // the contents is now in the variable data
+                    const divider = '"home"'
+                    let parts = data.split(divider);
+                    $("#nav-placeholder").html(parts[0] + divider + ' class = "active"' + parts[1])
+                });
             });
         </script>
 
@@ -77,7 +82,7 @@
 
 
 
-    <main>
+    </main>
 
     <div id="footer-placeholder">
         <script>

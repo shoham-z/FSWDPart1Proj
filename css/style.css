@@ -11,6 +11,11 @@
     margin: 0px;
 }
 
+.topnav a.active {
+    background-color: #04AA6D50;
+    color: white;
+}
+
 body {
     background-image: url("../images/RemyBackground.png");
     background-repeat: no-repeat;
