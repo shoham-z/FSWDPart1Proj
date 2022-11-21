@@ -19,7 +19,6 @@ body {
     background-blend-mode: overlay;
     background-size: 100% 100%;
     margin: 0;
-
 }
 
 body #page-element{
@@ -74,22 +73,30 @@ select{
     margin-bottom: 55px;
 }
 
-.youtube_vids {
-    float: left;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 40px;
-    background: rgba(0, 0, 0, 0.3);
-    padding: 5px;
+#Trailer1 {
     height: 400px;
     width: 650px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.page-element{
+    float: left;
+    border: 4px solid black;
+    border-radius: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    padding-top: 10px;
+    height: auto;
+    width: auto;
+    margin: 10px;
 
 }
 
 .default_font {
-    color: white;
+    color: black;
     font-family: "Calibri Light";
-    text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+    -webkit-text-stroke: 1px white;
 }
 
 footer.main-footer {
@@ -98,13 +105,21 @@ footer.main-footer {
     bottom:0;
     width:100%;
     height:60px;   /* Height of the footer */
-    min-width:1100px;
+    min-width: 1100px;
     border: solid black 3px;
 }
 
 .container{
-    width: 1000px;
+    width: 1300px;
     padding: 8px;
-
+    margin: 55px auto;
 }
 
+.form{
+    float: bottom;
+}
+
+.updates-list{
+    text-align: justify;
+    font-size: 1.1em;
+}
