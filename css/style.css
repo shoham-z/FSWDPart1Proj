@@ -5,6 +5,10 @@
     position: fixed;
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    background-image: linear-gradient(#bd0909, #be2121, #6b0303);
+    outline-width: 20px;
+    outline-color: black;
+    margin: 0px;
 }
 
 body {
@@ -14,6 +18,12 @@ body {
     background-color: #303030;
     background-blend-mode: overlay;
     background-size: 100% 100%;
+    margin: 0;
+
+}
+
+body #page-element{
+    margin-bottom: 50px;
 }
 
 select{
@@ -26,11 +36,6 @@ select{
     text-shadow: none;
 }
 
-.topnav {
-    background-image: linear-gradient(#bd0909, #be2121, #6b0303);
-    outline-width: 20px;
-    outline-color: black;
-}
 
 .topnavselect option, select{
     float: left;
@@ -66,11 +71,11 @@ select{
 
 .main {
     margin-top: 55px; /* Add a top margin to avoid content overlay */
+    margin-bottom: 55px;
 }
 
 .youtube_vids {
     float: left;
-    margin: auto;
     text-align: center;
     border: 2px solid black;
     border-radius: 40px;
@@ -78,6 +83,7 @@ select{
     padding: 5px;
     height: 400px;
     width: 650px;
+
 }
 
 .default_font {
@@ -88,4 +94,17 @@ select{
 
 footer.main-footer {
     background: #303030bf;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    min-width:1100px;
+    border: solid black 3px;
 }
+
+.container{
+    width: 1000px;
+    padding: 8px;
+
+}
+

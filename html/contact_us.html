@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+<div id="nav-placeholder">
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");//put the html code here and modify it to fit the specific page
+    });
+  </script>
+
+</div>
+<div class="main default_font container">
+
+  <h1 >
+    Contact us!
+  </h1>
+  <form class="form" action="home.html">
+    <label>Name:</label>
+    <input type="text" name="Name" placeholder="enter your name..." required/>
+    <label>Email:</label>
+    <input type="text" name="Email" placeholder="enter your email..." required/>
+    <label>What do you want to tell us?</label>
+    <comment></comment>
+    <input type="submit">
+  </form>
+  <div class="contact_us default_font">
+    <h4>
+      Contact us by:
+    </h4>
+    <ul>
+      <li>
+        <a href="https://discord.gg/yVfTTPDYpB" style="float: left" class="default_font">
+          <div style="float: left">Discord </div>
+          <img src="../images/DiscordIcon.ico" height="25px" width="25px"/>
+        </a>
+      </li>
+      <br>
+      <li>
+        <a href = "mailto: taler@g.jct.ac.il" class="default_font">
+          <div style="float: left">Email </div>
+          <img src="../images/EmailIcon.png" height="25px" width="25px"/>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+</body>
+</html>
