@@ -79,7 +79,9 @@ select{
     text-align: center;
     padding-bottom: 30px;
 }
-
+#Trailer1 > p {
+    padding-left: 7%;
+}
 .page-element{
     float: left;
     border: 4px solid black;
@@ -90,7 +92,6 @@ select{
     height: auto;
     width: auto;
     margin: 10px;
-
 }
 
 .default_font {
@@ -110,9 +111,32 @@ footer.main-footer {
 }
 
 .container{
+    display: flex;
+    justify-content: center;
     width: 1300px;
     padding: 8px;
     margin: 55px auto;
+}
+
+.big-container{
+    display: flex;
+    width: 1100px;
+    padding: 8px;
+    margin: 55px auto;
+    justify-content: center;
+}
+
+.left-container{
+    width: 900px;
+    padding: 8px;
+    margin: 0px 0px 0px auto;
+    flex: 2;
+}
+.right-container{
+    width: 500px;
+    padding: 8px;
+    margin: 0px auto 0px 0px;
+    flex: 1;
 }
 
 .form{
@@ -122,4 +146,16 @@ footer.main-footer {
 .list-element{
     text-align: justify;
     font-size: 1.1em;
+}
+
+.topnavmenu{
+    padding-left: 40%;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
 }
