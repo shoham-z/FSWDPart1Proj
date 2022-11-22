@@ -13,7 +13,6 @@
         <script>
             $(function () {
                 $.get( "./nav.html", function( data ) {
-                    // the contents is now in the variable data
                     const divider = '"about"'
                     let parts = data.split(divider);
                     $("#nav-placeholder").html(parts[0] + divider + ' class = "active"' + parts[1])
