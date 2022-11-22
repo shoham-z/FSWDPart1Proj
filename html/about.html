@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>BFHV2 - About</title>
+    <title></title>
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
@@ -17,6 +17,9 @@
                     const divider = '"about"'
                     let parts = data.split(divider);
                     $("#nav-placeholder").html(parts[0] + divider + ' class = "active"' + parts[1])
+                });
+                $.get("./website_name.html", function (data) {
+                    document.title = data + " - About"
                 });
             });
         </script>
