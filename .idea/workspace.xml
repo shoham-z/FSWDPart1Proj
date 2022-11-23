@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82ea2163-5d56-4e18-b891-5aab7e3b15ac" name="Changes" comment="some changes">
-      <change afterPath="$PROJECT_DIR$/css/table.css" afterDir="false" />
+    <list default="true" id="82ea2163-5d56-4e18-b891-5aab7e3b15ac" name="Changes" comment="added table with devs info and deleted old nav bar">
+      <change afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/bugs.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/bugs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contact_us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/newnav.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -46,6 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Saar/WebstormProjects/FSWD-unit1-ex1&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -83,6 +83,7 @@
       <workItem from="1669018467814" duration="4269000" />
       <workItem from="1669031377093" duration="3868000" />
       <workItem from="1669039128949" duration="6867000" />
+      <workItem from="1669222181111" duration="2258000" />
     </task>
     <task id="LOCAL-00001" summary="added background picture, and added 'Our communities' tab and link for discord server">
       <created>1668712507642</created>
@@ -133,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669045859462</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added table with devs info and deleted old nav bar">
+      <created>1669219780307</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669219780307</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +166,7 @@
     <MESSAGE value="moved footer to component" />
     <MESSAGE value="added updates and coming-by events" />
     <MESSAGE value="added flex-box for home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added flex-box for home page" />
+    <MESSAGE value="added table with devs info and deleted old nav bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="added table with devs info and deleted old nav bar" />
   </component>
 </project>

@@ -1,98 +1,3 @@
-.topnav {
-    overflow: hidden;
-    position: fixed;
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%;
-      /* Full width */
-    outline-width: 20px;
-    outline-color: black;
-    margin: 0px;
-    margin-bottom: auto;
-}
-
-.topnavmenu{
-    padding-left: 40%;
-}
-
-.topnav a.active {
-    background-color: #04AA6D50;
-    color: white;
-}
-
-.topnavselect option, select{
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    background: inherit;
-}
-
-.topnavselect option{
-    color: #101010;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover, .topnavselect:hover {
-    background-image: linear-gradient(#900909, #a02121, #500303);
-    background-color: white;
-    color: black;
-}
-
-/* new nav css */
-
-.navcontainer {
-    max-width: 1100px;
-    margin: 0 auto;
-}
-.navcontainer-fluid {
-    padding: 0 16px
-}
-
-header{
-    min-height: 50px;
-    background-image: linear-gradient(#bd0909, #be2121, #6b0303);
-    width: 100%;
-    color: #f2f2f2;
-    top: 0;
-    position: fixed;
-}
-
-header .navcontainer{
-    padding: 8px;
-    display: flex;
-    align-items: center;
-}
-
-header img{
-    margin-right: 350px;
-}
-
-header nav a {
-    color: #f2f2f2;
-    text-decoration: none;
-    padding: 0 12px;
-}
-
-header nav a:hover, select:hover{ 
-    height: 100%;
-    background-image: linear-gradient(#bd0909, #be2121, #6b0303);
-    background-color: purple;
-    color: black;
-}
-
-header .burger{display: none; }
-
 body {
     background-image: url("../images/RemyBackground.png");
     background-repeat: no-repeat;
@@ -101,18 +6,6 @@ body {
     background-blend-mode: overlay;
     background-size: 100% 100%;
     margin: 0;
-}
-
-select{
-    border:0;
-    outline:0;
-    -webkit-appearance:none;
-    background: inherit;
-    appearance:none;
-    box-shadow: none;
-    text-shadow: none;
-
-    background-image: linear-gradient(#bd0909, #be2121, #6b0303)
 }
 
 .main {
@@ -150,7 +43,7 @@ select{
     color: black;
     text-align: justify;
     font-family: "Calibri Light", monospace;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 0.7px white;
 }
 
 footer.main-footer {
@@ -172,13 +65,10 @@ footer.main-footer {
     margin: 55px auto;
 }
 
-
 .list-element {
     text-align: justify;
     font-size: 1.1em;
 }
-
-
 
 .logo {
     position: absolute;
