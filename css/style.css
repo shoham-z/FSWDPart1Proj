@@ -4,7 +4,7 @@
     overflow: hidden;
     position: fixed;
     top: 0; /* Position the navbar at the top of the page */
-    width: 100%;  /* Full width */
+    width: 100%; /* Full width */
     background-image: linear-gradient(#bd0909, #be2121, #6b0303);
     outline-width: 20px;
     outline-color: black;
@@ -26,19 +26,19 @@ body {
     margin: 0;
 }
 
-select{
-    border:0;
-    outline:0;
-    -webkit-appearance:none;
+select {
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
     background: inherit;
-    appearance:none;
+    appearance: none;
     box-shadow: none;
     text-shadow: none;
     background-image: linear-gradient(#bd0909, #be2121, #6b0303)
 }
 
 
-.topnavselect option, select{
+.topnavselect option, select {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -47,6 +47,11 @@ select{
     font-size: 17px;
     background: inherit;
 }
+
+.topnavselect option{
+    color: #101010;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
@@ -59,11 +64,16 @@ select{
 
 /* Change the color of links on hover */
 .topnav a:hover, .topnavselect:hover {
-    background-image: linear-gradient(#bd0909, #be2121, #6b0303);
-    background-color: purple;
+    background-image: linear-gradient(#900909, #a02121, #500303);
+    background-color: white;
     color: black;
 }
 
+.topnavselect:active {
+    background-image: linear-gradient(#ff0909, #ff2121, #ff0303);
+    -webkit-text-stroke: 1px black;
+    color: black;
+}
 
 
 .main {
@@ -77,11 +87,13 @@ select{
     text-align: center;
     padding-bottom: 30px;
 }
+
 #Trailer1 > p {
     padding-left: 7%;
 }
-.page-element{
-     float: left;
+
+.page-element {
+    float: left;
     border: 4px solid black;
     border-radius: 40px;
     background: rgba(0, 0, 0, 0.3);
@@ -103,14 +115,14 @@ select{
 footer.main-footer {
     background: #303030bf;
     position: fixed;
-    bottom:0;
-    width:100%;
-    height:60px;   /* Height of the footer */
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Height of the footer */
     min-width: 1100px;
     border: solid black 3px;
 }
 
-.regular-container{
+.regular-container {
     justify-content: center;
     /* width: 1100px; */
     width: 60%;
@@ -119,18 +131,16 @@ footer.main-footer {
 }
 
 
-
-
-.list-element{
+.list-element {
     text-align: justify;
     font-size: 1.1em;
 }
 
-.topnavmenu{
+.topnavmenu {
     padding-left: 40%;
 }
 
-.logo{
+.logo {
     position: absolute;
     top: 20px;
     left: 30px;
@@ -138,18 +148,26 @@ footer.main-footer {
     height: 40px;
 }
 
-#a{
+#a {
     float: bottom;
 }
 
 
-.bug-image{
+.bug-image {
     width: 350px;
 }
 
-@keyframes fade-in{
-    0% { opacity: 0;
-        margin-top: 15%;   }
-    100% { opacity: 1;
-             }
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        margin-top: 15%;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+input{
+    color: #101010;
+    -webkit-text-stroke: 0px #101010
 }
