@@ -13,7 +13,7 @@
     <div id="nav-placeholder">
         <script>
             $(function () {
-                $.get("./nav.html", function (data) {
+                $.get("./newnav.html", function (data) {
                     const divider = '"home"'
                     let parts = data.split(divider);
                     $("#nav-placeholder").html(parts[0] + divider + ' class = "active"' + parts[1])
@@ -37,7 +37,7 @@
                     <h3>
                         Our inspiration:
                     </h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/b8b1xLMEYi4"
+                    <iframe width="100%" height="80%"  src="https://www.youtube.com/embed/b8b1xLMEYi4"
                         title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>

@@ -1,14 +1,17 @@
-/* Add a black background color to the top navigation */
 .topnav {
-    background-color: #303030;
     overflow: hidden;
     position: fixed;
     top: 0; /* Position the navbar at the top of the page */
-    width: 100%;  /* Full width */
-    background-image: linear-gradient(#bd0909, #be2121, #6b0303);
+    width: 100%;
+      /* Full width */
     outline-width: 20px;
     outline-color: black;
     margin: 0px;
+    margin-bottom: auto;
+}
+
+.topnavmenu{
+    padding-left: 40%;
 }
 
 .topnav a.active {
@@ -16,30 +19,7 @@
     color: white;
 }
 
-body {
-    background-image: url("../images/RemyBackground.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #303030;
-    background-blend-mode: overlay;
-    background-size: 100% 100%;
-    margin: 0;
-}
-
-select{
-    border:0;
-    outline:0;
-    -webkit-appearance:none;
-    background: inherit;
-    appearance:none;
-    box-shadow: none;
-    text-shadow: none;
-    background-image: linear-gradient(#bd0909, #be2121, #6b0303)
-}
-
-
 .topnavselect option, select{
-    float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -64,7 +44,68 @@ select{
     color: black;
 }
 
+/* new nav css */
 
+.navcontainer {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.navcontainer-fluid {
+    padding: 0 16px
+}
+
+header{
+    min-height: 50px;
+    background-image: linear-gradient(#bd0909, #be2121, #6b0303);
+    width: 100%;
+    color: #f2f2f2;
+    top: 0;
+    position: fixed;
+}
+
+header .navcontainer{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    margin-right: 500px;
+}
+
+header nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 0 12px;
+}
+
+header nav a:hover, select:hover{ 
+    height: 100%;
+    background-image: linear-gradient(#bd0909, #be2121, #6b0303);
+    background-color: purple;
+    color: black;
+}
+
+body {
+    background-image: url("../images/RemyBackground.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #303030;
+    background-blend-mode: overlay;
+    background-size: 100% 100%;
+    margin: 0;
+}
+
+select{
+    border:0;
+    outline:0;
+    -webkit-appearance:none;
+    background: inherit;
+    appearance:none;
+    box-shadow: none;
+    text-shadow: none;
+    background-image: linear-gradient(#bd0909, #be2121, #6b0303)
+}
 
 .main {
     margin-top: 55px; /* Add a top margin to avoid content overlay */
@@ -113,7 +154,7 @@ footer.main-footer {
 .regular-container{
     justify-content: center;
     /* width: 1100px; */
-    width: 60%;
+    max-width: 60%;
     padding: 8px;
     margin: 55px auto;
 }
@@ -126,9 +167,7 @@ footer.main-footer {
     font-size: 1.1em;
 }
 
-.topnavmenu{
-    padding-left: 40%;
-}
+
 
 .logo{
     position: absolute;
@@ -142,6 +181,9 @@ footer.main-footer {
     float: bottom;
 }
 
+#contact-form{
+    margin-right: 30px;
+}
 
 .bug-image{
     width: 350px;
@@ -152,4 +194,21 @@ footer.main-footer {
         margin-top: 15%;   }
     100% { opacity: 1;
              }
+}
+
+/* media query */
+
+@media (max-width: 800px){ 
+    nav{
+        display: none;
+    }
+
+    .logo{
+        width: 100%;
+    }
+}
+
+header .topnav{
+    display: flex;
+    align-items: center;
 }

@@ -12,7 +12,7 @@
     <div id="nav-placeholder">
         <script>
             $(function () {
-                $.get("./nav.html", function (data) {
+                $.get("./newnav.html", function (data) {
                     const divider = '"bugs"'
                     let parts = data.split(divider);
                     $("#nav-placeholder").html(parts[0] + divider + ' class = "active"' + parts[1])
