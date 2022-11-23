@@ -91,6 +91,8 @@ header nav a:hover, select:hover{
     color: black;
 }
 
+header .burger{display: none; }
+
 body {
     background-image: url("../images/RemyBackground.png");
     background-repeat: no-repeat;
@@ -224,13 +226,17 @@ input{
     }
 
     header img{
-        width: 70%;
-        height: 70%;
+        width: 100%;
     }
 
+    header .burger{
+        display: block;
+        width: 100%;
+ }
+
     iframe{
-        width: 70%;
-        height: 70%;
+        width: 100%;
+        height: 100%;
     }
 
     .page-element{
