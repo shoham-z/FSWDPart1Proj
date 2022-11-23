@@ -75,7 +75,7 @@ header .navcontainer{
 }
 
 header img{
-    margin-right: 400px;
+    margin-right: 350px;
 }
 
 header nav a {
@@ -137,6 +137,7 @@ select{
     padding-top: 10px;
     height: auto;
     width: auto;
+    max-width: 600px;
     margin: 10px;
     animation-name: fade-in;
     animation-duration: 1s;
@@ -144,6 +145,7 @@ select{
 
 .default_font {
     color: black;
+    text-align: justify;
     font-family: "Calibri Light", monospace;
     -webkit-text-stroke: 1px white;
 }
@@ -191,7 +193,14 @@ footer.main-footer {
 }
 
 .bug-image {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.to-flex{
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 @keyframes fade-in {
@@ -215,6 +224,16 @@ input{
     }
 
     header img{
-        width: 20px;
+        width: 70%;
+        height: 70%;
+    }
+
+    iframe{
+        width: 70%;
+        height: 70%;
+    }
+
+    .page-element{
+        width: 70%;
     }
 }
