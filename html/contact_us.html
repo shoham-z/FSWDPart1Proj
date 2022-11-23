@@ -1,58 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Contact us</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <meta charset="UTF-8">
+  <title>Contact us</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
+
 <body>
-<div id="nav-placeholder">
-  <script>
-    $(function () {
-      $.get( "./nav.html", function( data ) {
-        // the contents is now in the variable data
-        $("#nav-placeholder").html(data)
+  <div id="nav-placeholder">
+    <script>
+      $(function () {
+        $.get("./nav.html", function (data) {
+          // the contents is now in the variable data
+          $("#nav-placeholder").html(data)
+        });
       });
-    });
-  </script>
-
-</div>
-<div class="default_font regular-container">
-
-  <h1 >
-    Contact us!
-  </h1>
-  <form>
-    <label>Name:</label>
-    <input type="text" name="Name" placeholder="enter your name..." required/>
-    <label>Email:</label>
-    <input type="text" name="Email" placeholder="enter your email..." required/>
-    <label>What would you like to tell us?</label>
-    <textarea name="tell"></textarea>
-    <input type="submit">
-  </form>
-  <div class="contact_us default_font">
-    <h4>
-      Contact us by:
-    </h4>
-    <ul>
-      <li>
-        <a href="https://discord.gg/yVfTTPDYpB" style="float: left" class="default_font">
-          <div style="float: left">Discord </div>
-          <img src="../images/DiscordIcon.ico" height="25px" width="25px"/>
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href = "mailto: taler@g.jct.ac.il" class="default_font">
-          <div style="float: left">Email </div>
-          <img src="../images/EmailIcon.png" height="25px" width="25px"/>
-        </a>
-      </li>
-    </ul>
+    </script>
 
   </div>
-</div>
+  <main class="default_font regular-container">
+    <div class="page-element" id="contact-form">
+      <h1>
+        Contact us!
+      </h1>
+      <form>
+        <label>Name:</label>
+        <input type="text" name="Name" placeholder="enter your name..." required />
+        <br>
+        <label>Email:</label>
+        <input type="text" name="Email" placeholder="enter your email..." required />
+        <br>
+        <label>What would you like to tell us?</label>
+        <br>
+        <textarea name="tell"></textarea>
+        <br>
+        <input type="submit">
+      </form>
+    </div>
+    <div class="contact_us default_font">
+      <h4>
+        Contact us by:
+      </h4>
+      <ul>
+        <li>
+          <a href="https://discord.gg/yVfTTPDYpB" style="float: left" class="default_font">
+            <div style="float: left">Discord </div>
+            <img src="../images/DiscordIcon.ico" height="25px" width="25px" />
+          </a>
+        </li>
+        <br>
+        <li>
+          <a href="mailto: taler@g.jct.ac.il" class="default_font">
+            <div style="float: left">Email </div>
+            <img src="../images/EmailIcon.png" height="25px" width="25px" />
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </main>
+
+  <div id="footer-placeholder">
+    <script>
+      $(function () {
+        $("#footer-placeholder").load("footer.html");//put the html code here and modify it to fit the specific page
+      });
+    </script>
+
+  </div>
 </body>
+
 </html>

@@ -1,21 +1,23 @@
-.big-container{
+.big-container {
     display: flex;
-    width: 1100px;
-    padding: 8px;
-    margin: 55px auto;
+    flex-wrap: wrap;
+    width: 65%;
+    padding: 0%;
+    margin: 4% auto;
     justify-content: center;
 }
 
-.left-container{
+.left-container {
     float: left;
-    width: 900px;
-    padding: 8px;
+    width: 100%;
+    /* width: 900px; */
     margin: 0px 0px 0px auto;
     flex: 2;
 }
-.right-container{
-    width: 500px;
-    padding: 8px;
+
+.right-container {
+    float: left;
+    width: 100%;
     margin: 0px auto 0px 0px;
     flex: 1;
 }

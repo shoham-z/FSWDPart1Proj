@@ -12,7 +12,7 @@
     <div id="nav-placeholder">
         <script>
             $(function () {
-                $.get( "./nav.html", function( data ) {
+                $.get("./nav.html", function (data) {
                     const divider = '"bugs"'
                     let parts = data.split(divider);
                     $("#nav-placeholder").html(parts[0] + divider + ' class = "active"' + parts[1])
@@ -24,9 +24,28 @@
         </script>
     </div>
 
-    <main class="regular-container default_font">        
-            #add content here
+    <main class="regular-container default_font">
+        <div class="page-element">
+            <h3>Bug #1</h3>
+            <p>Hand wont point for the right direction while holding a weapon</p>
+            <img src="../images/bugs_images/HandDirectionBug.png" class="bug-image">
+        </div>
+        <div class="page-element">
+            <h3>Bug #2</h3>
+            <p>Players would fall through the ground after being eliminated</p>
+        </div>
+
     </main>
+
+
+    <div id="footer-placeholder">
+        <script>
+            $(function () {
+                $("#footer-placeholder").load("footer.html");//put the html code here and modify it to fit the specific page
+            });
+        </script>
+
+    </div>
 </body>
 
 </html>
