@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/table.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
@@ -12,7 +13,7 @@
     <div id="nav-placeholder">
         <script>
             $(function () {
-                $.get("./newnav.html", function (data) {
+                $.get("./nav.html", function (data) {
                     const divider = '"about"'
                     let parts = data.split(divider);
                     $("#nav-placeholder").html(parts[0] + divider + ' class = "active"' + parts[1])
@@ -30,15 +31,36 @@
             while studying the basics of game development in unreal engine 5 using c++.
             <br>
             <br>
-            Developers
-            <ul>
-                <li>Saar Taler</li>
-                <li>Yahav Cohen</li>
-                <li>Matanya Friedhaim</li>
-                <li>Shoham Zeharya</li>
-                <li>Eliav Alvertal</li>
-                <li>Noam Drezner</li>
-            </ul>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Role</th>
+                </tr>
+                <tr>
+                    <td>Saar Taler</td>
+                    <td>Manager and Developer</td>
+                </tr>
+                <tr>
+                    <td>Yahav Cohen</td>
+                    <td>Developer</td>
+                </tr>
+                <tr>
+                    <td>Matanya Friedhaim</td>
+                    <td>Developer</td>
+                </tr>
+                <tr>
+                    <td>Shoham Zeharya</td>
+                    <td>Developer</td>
+                </tr>
+                <tr>
+                    <td>Eliav Alvertal</td>
+                    <td>Developer</td>
+                </tr>
+                <tr>
+                    <td>Noam Drezner</td>
+                    <td>Designer</td>
+                </tr>
+            </table>
 
         </div>
     </div>

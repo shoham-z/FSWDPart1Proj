@@ -109,6 +109,7 @@ select{
     appearance:none;
     box-shadow: none;
     text-shadow: none;
+
     background-image: linear-gradient(#bd0909, #be2121, #6b0303)
 }
 
