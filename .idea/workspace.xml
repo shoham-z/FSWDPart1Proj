@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82ea2163-5d56-4e18-b891-5aab7e3b15ac" name="Changes" comment="added flex-box for home page">
+    <list default="true" id="82ea2163-5d56-4e18-b891-5aab7e3b15ac" name="Changes" comment="some changes">
+      <change afterPath="$PROJECT_DIR$/css/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/bugs.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/bugs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contact_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/newnav.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +34,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HgPkjM542zkVyORBmKu8rr0oKt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
