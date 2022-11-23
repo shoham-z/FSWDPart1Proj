@@ -75,7 +75,7 @@ header .navcontainer{
 }
 
 header img{
-    margin-right: 500px;
+    margin-right: 400px;
 }
 
 header nav a {
@@ -118,8 +118,8 @@ select{
 }
 
 #Trailer1 {
-    height: 400px;
-    width: 650px;
+    /* height: 400px;
+    width: 650px; */
     text-align: center;
     padding-bottom: 30px;
 }
@@ -207,4 +207,14 @@ footer.main-footer {
 input{
     color: #101010;
     -webkit-text-stroke: 0px #101010
+}
+
+@media (max-width: 950px){ 
+    nav{
+        display: none;
+    }
+
+    header img{
+        width: 20px;
+    }
 }
