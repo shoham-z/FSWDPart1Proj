@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #303030;
     overflow: hidden;
     position: fixed;
     top: 0; /* Position the navbar at the top of the page */
@@ -34,6 +34,7 @@ select{
     appearance:none;
     box-shadow: none;
     text-shadow: none;
+    background-image: linear-gradient(#bd0909, #be2121, #6b0303)
 }
 
 
@@ -58,16 +59,12 @@ select{
 
 /* Change the color of links on hover */
 .topnav a:hover, .topnavselect:hover {
-    background-color: #ddd;
+    background-image: linear-gradient(#bd0909, #be2121, #6b0303);
+    background-color: purple;
     color: black;
 }
 
-/* Add a color to the active/current link */
-.topnav body#home a#home, body#about a#about {
-    background: rgba(4, 170, 109, 0.3);
-    /*background-color: #04AA6D;*/
-    color: white;
-}
+
 
 .main {
     margin-top: 55px; /* Add a top margin to avoid content overlay */
@@ -99,7 +96,7 @@ select{
 
 .default_font {
     color: black;
-    font-family: "Calibri Light";
+    font-family: "Calibri Light", monospace;
     -webkit-text-stroke: 1px white;
 }
 
