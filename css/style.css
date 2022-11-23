@@ -166,7 +166,8 @@ footer.main-footer {
 .regular-container {
     justify-content: center;
     /* width: 1100px; */
-    max-width: 60%;
+    width: 100%;
+    max-width: 950px;
     padding: 8px;
     margin: 55px auto;
 }
@@ -192,7 +193,9 @@ footer.main-footer {
 }
 
 #contact-form{
-    margin-right: 30px;
+    margin-right:1000px;
+    text-align: center;
+    width: 100%;
 }
 
 .bug-image {
@@ -226,13 +229,14 @@ input{
         display: none;
     }
 
-    header img{
+    /* header img{
         width: 100%;
-    }
+    } */
 
     header .burger{
         display: block;
-        width: 100%;
+        width: 20px;
+        height: 20px;
  }
 
     iframe{
@@ -242,5 +246,6 @@ input{
 
     .page-element{
         width: 70%;
+        min-width: 300px;
     }
 }
